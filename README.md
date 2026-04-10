@@ -20,7 +20,12 @@ aws-nyc311-yourMSUNetID/      # Update with your GitHub repo name
 ├── raw/                      # Local copies of S3 uploads
 │   ├── complaints.csv
 │   └── agencies.csv
+├── notebooks/ 
+│   ├── data_load_verifiy.ipynb
+│   ├── modeling_train_and_eval.ipnb
+│   └── stakeholder_question01_linear_learner.ipynb
 ├── sql/                      # Athena queries
+│   └── athena_to_modeling.sql
 ├── notes/                    # Observations, decisions
 └── reports/                  # Stakeholder outputs
 ```
